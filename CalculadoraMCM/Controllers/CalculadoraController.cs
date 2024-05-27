@@ -5,10 +5,10 @@ namespace CalculadoraMCM.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class CalculadoraController : ControllerBase
     {
         private readonly ICalculadora MiCalculadora;
-        public WeatherForecastController(ICalculadora micalculadora)
+        public CalculadoraController(ICalculadora micalculadora)
         {
             this.MiCalculadora = micalculadora;
         }
