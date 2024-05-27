@@ -1,0 +1,6 @@
+@ApiCadenas_HostAddress = http://localhost:5252
+
+GET {{ApiCadenas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
